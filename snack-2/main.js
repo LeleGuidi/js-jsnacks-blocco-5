@@ -55,7 +55,7 @@ let zucchine = [
 let zucchinePiccole = [];
 let zucchineGrandi = [];
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < zucchine.length; i++) {
     if ( zucchine[i].length < 15) {
         zucchinePiccole.push(zucchine[i])
     } else {
